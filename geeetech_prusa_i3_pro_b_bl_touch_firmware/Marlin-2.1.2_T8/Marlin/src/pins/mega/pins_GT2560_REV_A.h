@@ -46,7 +46,7 @@
 
 #if ENABLED(BLTOUCH)
   #if MB(GT2560_REV_A_PLUS)
-    #define SERVO0_PIN                        32
+    #define SERVO0_PIN                        11
     #define Z_MAX_PIN                         -1
   #else
     #define SERVO0_PIN                        32
