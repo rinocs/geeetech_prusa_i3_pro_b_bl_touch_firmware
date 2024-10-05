@@ -499,9 +499,9 @@
     //#define DEFAULT_Kp  12.33
     //#define DEFAULT_Ki   0.51
     //#define DEFAULT_Kd  74.50
-#define DEFAULT_Kp 14.47
-#define DEFAULT_Ki 0.62
-#define DEFAULT_Kd 84.18
+    #define DEFAULT_Kp  26.33
+    #define DEFAULT_Ki   1.91
+    #define DEFAULT_Kd  90.58
 
     // CTC MK8 Extruder
     //#define DEFAULT_Kp  19.86
@@ -544,9 +544,12 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   // 12v (120 watt?) MK2a PCB Heatbed into 4mm borosilicate (Geeetech Průša i3 Pro, Pro/B/C/X)
-  #define DEFAULT_bedKp 234.88
-  #define DEFAULT_bedKi 42.79
-  #define DEFAULT_bedKd 322.28
+  //#define DEFAULT_bedKp 234.88
+  //#define DEFAULT_bedKi 42.79
+  //#define DEFAULT_bedKd 322.28
+  #define DEFAULT_bedKp 10.00
+  #define DEFAULT_bedKi .023
+  #define DEFAULT_bedKd 305.4
 //#define DEFAULT_bedKp 67.70
 //#define DEFAULT_bedKi 12.91
 //#define DEFAULT_bedKd 236.62
